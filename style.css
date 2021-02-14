@@ -1,0 +1,197 @@
+html{
+    
+    margin: 1%;
+}
+
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color:#659dbd;
+   padding:1%;
+   
+}
+
+
+main{
+    margin-top:2%;
+    background-color: peachpuff;
+    margin-right: 2%;
+}
+
+body{
+
+    background-color: slategray;
+}
+/* styles my profile picture */
+#me{
+    min-width:200px;
+    min-height:200px;
+    margin:30px;
+
+}
+
+h1{
+    margin-left: 2%;
+}
+
+nav {
+
+  width: 375px;
+  display: flex;
+  justify-content:space-evenly ;
+  position: absolute; 
+  top:65px;
+  right:40px;
+  padding-top: 20px;
+  
+   
+}
+
+nav a{
+ 
+    color:blue;
+  
+}
+/* styles the article that holds my breif bio */
+.bio{
+   
+    width:50%;
+    flex-direction: column;
+   
+}
+/* styles the div with everything about me  */
+.aboutMe{
+
+    display:flex;
+}
+
+.bio h3 {
+    margin-left:7%;
+    width:fit-content;
+    background-color: beige;
+}
+.bio p {
+
+    padding-right:3% ;
+    
+}
+.pastWork{
+
+    display:flex;
+    padding-bottom: 2%;
+     
+}
+.subPastWork{
+
+   margin-left: 2%;
+   width:50%;
+}
+#projectOne{
+margin-left: 2.5%;  
+width: 50%;
+    
+}
+.smallerPic{
+ margin-top: 1.5%;
+ margin-left: 4%;
+ width: 40%;
+ height: 40%;    
+}
+.title{
+
+    position:relative;
+    left:5%;
+}
+
+@media screen and (max-width: 992px){
+
+   
+    .smallerPic{
+       margin-top: 2%;
+       margin-left: 2%;
+       width: 40%;
+       height: 40%;    
+       }
+       
+}
+@media screen and (max-width: 734px){
+
+nav{
+    
+   top:8%;
+    left:5%;
+   
+}
+.aboutMe{ 
+    flex-direction: column;
+    height:fit-content;
+}
+.bio p{
+    width:180%;
+    margin-left: 15%;
+    height:20%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+    html{
+
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+    
+        top: 7.8%;
+         left:5%;
+        
+     }
+    .pastWork{
+        flex-direction: column;
+        padding-left: 6%;
+    }
+
+    #projectOne{
+
+        width: 90%;
+    }
+    .subPastWork{
+        width: 90%;
+    }
+    .smallerPic{
+
+        width:40%;
+        padding-left: 3%;
+    }
+    
+}
+@media screen and (max-width: 380px){
+
+    html{
+
+       margin-left: 6%;
+    }
+}
+@media screen and (max-width: 360px){
+
+    html{
+
+       margin-left: 10%;
+    }
+    nav{
+    
+        top: 9%;
+         left:5%;
+        
+     }
+}
+
+@media screen and (max-width: 280px){
+    html{
+
+        margin-left: 40%;
+    }
+
+}
