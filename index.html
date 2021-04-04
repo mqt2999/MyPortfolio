@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- linking my css file to my html -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- title of tab -->
@@ -18,6 +20,7 @@
 
         <h1> Marquell Thompson </h1>
         <!-- nav with links to corresponding sections of information in my page  -->
+
         <nav class="navLinks">
             <a href="#about-me"> About Me </a>
             <a href="#past-work"> Past Work </a>
@@ -31,7 +34,7 @@
         <!-- div holding my profile picture and bio article -->
         <div class="aboutMe">
             <!-- profile pic  -->
-            <img id="me" src="hello.jpg" alt="Marquell Thompson">
+            <img id="me" src="./Images/marquellT.png" alt="Marquell Thompson">
             <!-- article holding a short bit of info about me  -->
             <article class="bio">
 
@@ -53,15 +56,51 @@
         <!-- this div holds my past work project  -->
         <div id="past-work" class="pastWork">
             <!-- my first projct  -->
-            <img id="projectOne" src="nnm.jpg" alt="projectOne">
+            <div class="card">
+                <a target='_blank' href='https://kjackson206.github.io/superhero-quiz/'> <img id="projectOne" src="./Images/superQuiz.png"  alt="Superhero Quiz"> </a>
+                <div class="card-body">
+                    <p class="card-text"> Superhero Quiz</p>
+                </div>
+            </div>
+
 
 
             <!-- this div holds some more projects  -->
             <div class="subPastWork">
-                <img class="smallerPic" src="nnm.jpg" alt="projectOne">
-                <img class="smallerPic" src="nnm.jpg" alt="projectOne">
-                <img class="smallerPic" src="nnm.jpg" alt="projectOne">
-                <img class="smallerPic" src="nnm.jpg" alt="projectOne">
+
+                <div class='smallSub'>
+                    <div class="card-smaller">
+                        <a target='_blank' href='https://mqt2999.github.io/RandomKey/'>
+                            <img class="smallerPic" src="./Images/randomPassword.png" alt="Random Password Generator"> </a> 
+                        <div class="card-body">
+                            <p class="card-text"> Random Password Generator </p>
+                        </div>
+                    </div>
+                    <div class="card-smaller">
+                        <a target='_blank' href='https://mqt2999.github.io/Day-Planner/'>
+                            <img class="smallerPic" src="./Images/planner.png" alt="Work Day Planner"> </a>
+                        <div class="card-body">
+                            <p class="card-text"> Work Day Planner </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='smallSub'>
+                    <div class="card-smaller">
+                        <a href='https://mqt2999.github.io/JsQuiz/' target='_blank'> 
+                            <img class="smallerPic" src="./Images/quiz.png" alt="JavaScript Quiz"> </a> 
+                        <div class="card-body">
+                            <p class="card-text"> JavaScript Quiz </p>
+                        </div>
+                    </div>
+                    <div class="card-smaller">
+                        <a target='_blank' href='https://mqt2999.github.io/Weather-Site/'> <img class="smallerPic" src="./Images/weather.png" alt="projectOne"> </a>
+                        <div class="card-body">
+                            <p class="card-text"> Weather Forcast </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!-- end of subPastWork -->
 
@@ -81,8 +120,8 @@
 
         <ul>
             <li> Gmail: Lleuqram8208@gmail.com </li>
-            <li> Linkedin:</li>
-            <li> GithHub </li>
+            <li> Linkedin: <a target= '_blank' href='https://www.linkedin.com/in/marquell-thompson-a50027204/'> Marquell Thompson </a> </li>
+            <li> GithHub: <a target='_blank' href='https://github.com/mqt2999'>mqt2999</a></li>
             <li> Phone </li>
         </ul>
 

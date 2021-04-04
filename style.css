@@ -5,13 +5,17 @@ html{
 
 
 header{
+
     display:flex;
     flex-direction: row;
     background-color:#659dbd;
-   padding:1%;
+    padding:1%;
+   width:100%;
    
 }
-
+a{
+    color: salmon;
+}
 
 main{
     margin-top:2%;
@@ -22,11 +26,13 @@ main{
 body{
 
     background-color: slategray;
+    margin: 1%;
+    width:100%;
 }
 /* styles my profile picture */
 #me{
-    min-width:200px;
-    min-height:200px;
+    max-width:300px;
+    max-height:300px;
     margin:30px;
 
 }
@@ -37,20 +43,26 @@ h1{
 
 nav {
 
-  width: 375px;
   display: flex;
   justify-content:space-evenly ;
-  position: absolute; 
-  top:65px;
-  right:40px;
-  padding-top: 20px;
-  
-   
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding:0px;
+  left:19%;
+  width:35%;
+}
+.navDiv{
+
+    display: flex;
+    position:relative;
+    width:40%;
 }
 
 nav a{
  
     color:blue;
+    
   
 }
 /* styles the article that holds my breif bio */
@@ -84,19 +96,42 @@ nav a{
 }
 .subPastWork{
 
+   display: flex;
+   flex-direction: column;
+   flex-wrap: none;
    margin-left: 2%;
    width:50%;
+   margin-right: 1%;
+}
+.smallSub{
+    display:flex;
+    margin:3%;
+
 }
 #projectOne{
-margin-left: 2.5%;  
-width: 50%;
+ 
+width: 100%;
     
 }
+.card{
+    width: 50%;
+    margin-left: 2.5%;
+    height:60%;
+    background-color: slategray;
+}
+.card-smaller{
+    width: 50%;
+    margin-left: 2.5%;
+    height:100%;
+    background-color: slategray;
+}
+.card-body{
+    padding: .9%;
+}
 .smallerPic{
- margin-top: 1.5%;
- margin-left: 4%;
- width: 40%;
- height: 40%;    
+ 
+ width: 100%;
+     
 }
 .title{
 
